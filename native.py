@@ -5,6 +5,8 @@ import time
 import os
 
 # SensorDroid Client Python.
+# Thank you for tarCo for providing the core.
+
 class Client:
 
     @property

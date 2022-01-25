@@ -1,7 +1,6 @@
 from native import Client
 import time
 
-
 def devicesDiscoveredEventHandler(devices):
     print(devices)
     if len(devices) > 0:
