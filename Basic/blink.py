@@ -1,7 +1,7 @@
 import serial
 import time
 
-s=serial.Serial('com6',9600)
+s=serial.Serial('Com Num',BaudRate)
 
 def led_switch():
     v=input('LED ? ')
