@@ -2,7 +2,7 @@
 
 #### Basic
 ##### Blink
-LED switch basic code.
+LED switch basic code. Currently can use this code for relay.
 
 #### Sensordroid using Tarco and socket
 Android phone sensor monitor using socket.

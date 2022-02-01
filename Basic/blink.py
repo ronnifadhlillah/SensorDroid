@@ -3,18 +3,18 @@ import time
 
 s=serial.Serial('Com Num',BaudRate)
 
-def led_switch():
+def switch():
     v=input('LED ? ')
     if v == 'on':
         s.write(b'1')
-        led_switch()
+        switch()
     elif v == 'off':
         s.write(b'0')
-        led_switch()
+        switch()
     else:
         print('Input unknown. try using on or off')
-        led_switch()
+        switch()
 
 time.sleep(2)
 print('Serial connection is ready')
-led_switch()
+switch()
